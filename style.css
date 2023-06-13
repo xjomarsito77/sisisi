@@ -1,0 +1,1233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(183, 193, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    
+}
+
+header {
+    background-color: rgb(250, 229, 3);
+    padding: 2em;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.infoclick{
+    text-decoration: none;
+    color: #000000;
+    padding: 15px 60px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+}
+.click {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 60px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+
+.click2 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 60px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click3 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 45px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click4 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 60px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click5 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 60px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click6 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 56px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click7 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 56px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.click8 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 54px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click9 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 46px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click10 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 61px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click11 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 49px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click12 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 50px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click13 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 58px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.click14 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 64px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click15 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 61px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click16 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 49px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click17 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 57px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click18 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 50px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click19 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 55px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.click20 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 36px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.click21 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color .3s;
+    margin-left: 10px;
+}
+
+.infoclick:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+.click:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click2:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click3:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click4:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click5:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click6:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click7:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click8:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click9:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click10:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click11:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click12:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click13:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click14:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click15:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click16:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click17:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click18:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click19:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click20:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+
+.click21:hover {
+    background-color: #fff;
+    color: #1e3c72;
+}
+.info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal5 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal7 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal8 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal9 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal10 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal11 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal12 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal13 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal14 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal15 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal16 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal17 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal18 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal19 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+.modal20 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.modal21 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: #111111bd;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s;
+}
+
+.info--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal2--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal3--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal4--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal5--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal6--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal7--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal8--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal9--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal10--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal11--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal12--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal13--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal14--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal15--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal16--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal17--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal18--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal19--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal20--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+
+.modal21--show {
+    opacity: 1;
+    pointer-events: inherit;
+    transition: opacity .6s;
+}
+.informacion{
+    display: flex;
+}
+
+.informacion div{
+    width: 50%;
+}
+
+.modal_container {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: flex;
+    gap: 1em;
+    place-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.modal_titulo_inf {
+    font-size: 2.5rem;
+}
+.modal_titulo {
+    font-size: 2.5rem;
+    margin-left: 84px;
+}
+
+.modal_parrafo {
+    margin-bottom: 10px;
+    justify-content: right;
+    
+}
+
+.info_imagen{
+    width: 100%;
+    max-width: 300px;
+}
+.modal_imagen {
+  
+    width: 100%;
+    max-width: 400px;
+}
+.splice_img{
+    width: 100%;
+    max-width: 600px;
+}
+
+.modal_info {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_info:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+.modal_close {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close2 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close2:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close3 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close3:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close4 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close4:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close5 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close5:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close6 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close6:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close7 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close7:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close8 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close8:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close9 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close9:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close10 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close10:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close11 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close11:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close12 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close12:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close13 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close13:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close14 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close14:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close15 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close15:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close16 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close16:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close17 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close17:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close18 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close18:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close19 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close19:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close20 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close20:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
+
+.modal_close21 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #50a4f2;
+    border: 1px solid;
+    padding: 1em 3em;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+
+.modal_close21:hover {
+    color: #50a4f2;
+    background-color: #fff;
+}
